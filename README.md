@@ -5,4 +5,4 @@ Landing page with HTML-coding
  -HTML/CSS
  -JS
  
- Загруженно для показа понимания HTML/CSS и семантики. 
+ Загруженно для показа понимания чистого HTML/CSS и семантики. 
