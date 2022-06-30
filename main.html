@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Jura:300,regular,500,600,700" rel="stylesheet" />
+    <link rel="stylesheet" href="./chiefSlider/chief-slider.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          new ChiefSlider('.slider');
+        });
+    </script>
+    <title>TuoTown</title>
+</head>
+<body>
+    <div class="wrapeer">
+        <header>
+            <section class="menu__background">
+                <div class="menu _container_men">
+                    <div class="menu__item nav">
+                        <div class="nav__item burger"><img src="./img/header/burger.svg" alt="Кнопка меню"></div>
+                        <div class="nav__item gps"><img src="./img/header/gps.svg" alt="Кнопка карты"></div>
+                        <div class="nav__item contact">8 981 120-11-17</div>
+                        <div class="nav__item phone"><img src="./img/header/phone.svg" alt="Кнопка телефона"></div>
+                    </div>
+                    <div class="menu__item logo"><img src="./img/header/logo.svg" alt="Кнопка меню"></div>
+                    <div class="menu__item social">
+                        <div class="social__item cart">
+                            <img class="cart__icon" src="./img/header/cart.svg" alt="Кнопка меню">
+                            <div class="cart__wrapper display-none opacity">
+                                <div class="cart__background">
+                                    <div class="cart__items">
+                                        <div class="cart__error">Упс, кажется кот занял всё место в корзине</div>
+                                        <div class="cart__img-wrapper">
+                                            <img src="./img/header/cat_hungry-128x128.png" alt="Корзина пуста" class="cart__img">
+                                        </div>
+                                    </div>
+                                    <form class="cart__form form">
+                                        <div class="form__title">Для подверждения заказа - заполните данные и мы Вам перезвоним</div>
+                                        <div class="form__connection connection">
+                                            <div class="connection__name">Получатель</div>
+                                            <input type="text" class="connection__input" placeholder="Имя Фамилия">
+                                            <div class="connection__line"></div>
+                                        </div>
+                                        <div class="form__connection connection">
+                                            <div class="connection__name">Мобильный телефон</div>
+                                            <input type="text" class="connection__input" placeholder="+7 (___) ___-__-__">
+                                            <div class="connection__line"></div>
+                                        </div>
+                                        <button class="form__button">Отправить форму</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social__item mail"><img src="./img/header/serach.svg" alt="Кнопка меню"></div>
+                        <div class="social__item searcher">
+                            <img src="./img/header/mail.svg" alt="Кнопка меню" class="searcher__icon">
+                            <div class="searcher__wrapper">
+                                <input type="text" class="width searcher__input">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="slider">
+                <div class="slider__container">
+                  <div class="slider__wrapper">
+                    <div class="slider__items">
+                      <div class="slider__item">
+                        <div class="slider__background slider_1">
+                            <div class="slider__content content">
+                                <div class="content__title">Исключительное качество без компромиссов</div>
+                                <div class="content__subtitle">Ножи «Tuotown» – это главный инструмент поваров и секрет кулинарного мастерства</div>
+                                <div class="content__button"><button class="slider__button">ПОДРОБНЕЕ</button></div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="slider__item">
+                        <div class="slider__background slider_2">
+                            <div class="slider__content content">
+                                <div class="content__title">Исключительное качество без компромиссов</div>
+                                <div class="content__subtitle">Ножи «Tuotown» – это главный инструмент поваров и секрет кулинарного мастерства</div>
+                                <div class="content__button"><button class="slider__button">ПОДРОБНЕЕ</button></div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="slider__item">
+                        <div class="slider__background slider_3">
+                            <div class="slider__content content">
+                                <div class="content__title">Исключительное качество без компромиссов</div>
+                                <div class="content__subtitle">Ножи «Tuotown» – это главный инструмент поваров и секрет кулинарного мастерства</div>
+                                <div class="content__button"><button class="slider__button">ПОДРОБНЕЕ</button></div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="slider__item">
+                        <div class="slider__background slider_4">
+                            <div class="slider__content content">
+                                <div class="content__title">Исключительное качество без компромиссов</div>
+                                <div class="content__subtitle">Ножи «Tuotown» – это главный инструмент поваров и секрет кулинарного мастерства</div>
+                                <div class="content__button"><button class="slider__button">ПОДРОБНЕЕ</button></div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+                <a href="#" class="slider__control _container" data-slide="prev"></a>
+                <a href="#" class="slider__control _container" data-slide="next"></a>
+                <ol class="slider__indicators">
+                    <li data-slide-to="1">1</li>
+                    <li data-slide-to="2">2</li>
+                    <li data-slide-to="3">3</li>
+                    <li data-slide-to="4">4</li>
+                  </ol>
+            </section>
+            <section class="navigation__background active-menu">
+                <nav class="navigation">
+                    <div class="navigation__close"><img src="./img/header/Group 42.svg" alt="Закрыть меню"></div>       
+                    <ul class="navigation__list">
+                        <li><a>Кухонные ножи TUOTOWN</a></li>
+                        <li><a>Складные ножи TUOTOWN</a></li>
+                        <li><a>Кухонные ножи QXF</a></li>
+                        <li><a>Точильные камни</a></li>
+                        <li><a>Наборы для BBQ</a></li>
+                        <li><a>Кухонные принадлежности</a></li>
+                        <li><a>Туристические товары</a></li>
+                    </ul>
+                    <ul class="navigation__sublist">
+                        <li><a>Новости</a></li>
+                        <li><a>О компании</a></li>
+                        <li><a>Контакты</a></li>
+                        <li><a>Как проехать</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <main>
+            <section class="products">
+                <div class="products__tabs">
+                    <div class="products__tab tab active-tab" data-open-tab="tab-1">
+                        <div class="tab__img"><img src="./img/products/tab1.svg" alt="Кухонные ножи"></div>
+                        <div class="tab__title">Кухонные ножи</div>
+                    </div>
+                    <div class="products__tab tab" data-open-tab="tab-2">
+                        <div class="tab__img"><img src="./img/products/tab2.svg" alt="Складные ножи"></div>
+                        <div class="tab__title">Складные ножи</div>
+                    </div>
+                    <div class="products__tab tab" data-open-tab="tab-3">
+                        <div class="tab__img"><img src="./img/products/tab3.svg" alt="Точилки для ножей"></div>
+                        <div class="tab__title">Точилки для ножей</div>
+                    </div>
+                    <div class="products__tab tab" data-open-tab="tab-4">
+                        <div class="tab__img"><img src="./img/products/tab4.svg" alt="Аксессуары для ножей"></div>
+                        <div class="tab__title">Аксессуары для ножей</div>
+                    </div>
+                </div>
+                <div data-tab id="tab-1" class="products__grid _container knifes">
+                    <div class="products__item_big link-item">
+                        <img src="./img/products/knife-big.png" alt="Изображение статьи" class="link-item__img">
+                        <div class="link-item__text">
+                            <div class="link-item__title">Познакомьтесь с коллекцией ножей TUOTOWN</div>
+                            <img src="./img/products/next-arrow.svg" alt="Открыть" class="link-item__arrow">
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/knife1.png" alt="Изображение товара" class="item__img"></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Кухонный нож JJ001-TUO-B</div>
+                                <div class="item__price">850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Кухонный нож SQ01-B</div>
+                            <div class="item__price">850 р.</div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/knife2.png" alt="Изображение товара" class="item__img"></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Кухонный нож JJ001-TUO-B</div>
+                                <div class="item__price">12 850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Кухонный нож JJ001-TUO-B</div>
+                            <div class="item__price">12 850 р.</div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/knife1.png" alt="Изображение товара" class="item__img"></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Кухонный нож JJ001-TUO-B</div>
+                                <div class="item__price">850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Кухонный нож SQ01-B</div>
+                            <div class="item__price">850 р.</div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/knife2.png" alt="Изображение товара" class="item__img"></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Кухонный нож JJ001-TUO-B</div>
+                                <div class="item__price">12 850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Кухонный нож JJ001-TUO-B</div>
+                            <div class="item__price">12 850 р.</div>
+                        </div>
+                    </div>
+                    <div class="products__item_inst inst-item">
+                        <div class="inst-item__text">
+                            <img src="./img/products/insta.svg" alt="Логотип инстаграмма" class="inst-item__logo">
+                            <div class="inst-item__title">instagram</div>
+                        </div>
+                        <img src="./img/products/knife-inst.png" alt="Изображение статьи" class="inst-item__img">
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/knife2.png" alt="Изображение товара" class="item__img"></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Кухонный нож JJ001-TUO-B</div>
+                                <div class="item__price">12 850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Кухонный нож JJ001-TUO-B</div>
+                            <div class="item__price">12 850 р.</div>
+                        </div>
+                    </div>
+                </div>
+                <div data-tab id="tab-2" class="products__grid _container jackknifes display-none">
+                    <div class="products__item_big link-item">
+                        <img src="./img/products/knife-big.png" alt="Изображение статьи" class="link-item__img">
+                        <div class="link-item__text">
+                            <div class="link-item__title">Познакомьтесь с коллекцией ножей TUOTOWN</div>
+                            <img src="./img/products/next-arrow.svg" alt="Открыть статью" class="link-item__arrow">
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/jackknife1.png" alt="Изображение товара" class="item__img rotate_30"></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Складной нож JJ001-TUO-B</div>
+                                <div class="item__price">850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Складной нож SQ01-B</div>
+                            <div class="item__price">850 р.</div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/jackknife2.png" alt="Изображение товара" class="item__img rotate_40"></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Складной нож JJ001-TUO-B</div>
+                                <div class="item__price">12 850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Складной нож JJ001-TUO-B</div>
+                            <div class="item__price">12 850 р.</div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/jackknife1.png" alt="Изображение товара" class="item__img rotate_30"></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Складной нож JJ001-TUO-B</div>
+                                <div class="item__price">850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Складной нож SQ01-B</div>
+                            <div class="item__price">850 р.</div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/jackknife2.png" alt="Изображение товара" class="item__img rotate_40"></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Складной нож JJ001-TUO-B</div>
+                                <div class="item__price">12 850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Складной нож JJ001-TUO-B</div>
+                            <div class="item__price">12 850 р.</div>
+                        </div>
+                    </div>
+                    <div class="products__item_inst inst-item">
+                        <div class="inst-item__text">
+                            <img src="./img/products/insta.svg" alt="Логотип инстаграмма" class="inst-item__logo">
+                            <div class="inst-item__title">instagram</div>
+                        </div>
+                        <img src="./img/products/knife-inst.png" alt="Картинка статьи" class="inst-item__img">
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/jackknife2.png" alt="Изображение товара" class="item__img rotate_40"></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Складной нож JJ001-TUO-B</div>
+                                <div class="item__price">12 850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Складной нож JJ001-TUO-B</div>
+                            <div class="item__price">12 850 р.</div>
+                        </div>
+                    </div>
+                </div>
+                <div data-tab id="tab-3" class="products__grid _container sharpeners display-none">
+                    <div class="products__item_big link-item">
+                        <img src="./img/products/knife-big.png" alt="Изображение статьи" class="link-item__img">
+                        <div class="link-item__text">
+                            <div class="link-item__title">Познакомьтесь с коллекцией ножей TUOTOWN</div>
+                            <img src="./img/products/next-arrow.svg" alt="Открыть статью" class="link-item__arrow">
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/sharpener1.png" alt="Изображение товара" class="item__img "></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Точильный камень JJ001-TUO-B</div>
+                                <div class="item__price">850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Точильный камень SQ01-B</div>
+                            <div class="item__price">850 р.</div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/sharpener2.png" alt="Изображение товара" class="item__img "></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Точильный камень JJ001-TUO-B</div>
+                                <div class="item__price">12 850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Точильный камень JJ001-TUO-B</div>
+                            <div class="item__price">12 850 р.</div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/sharpener1.png" alt="Изображение товара" class="item__img "></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Точильный камень JJ001-TUO-B</div>
+                                <div class="item__price">850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Точильный камень SQ01-B</div>
+                            <div class="item__price">850 р.</div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/sharpener2.png" alt="Изображение товара" class="item__img "></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Точильный камень JJ001-TUO-B</div>
+                                <div class="item__price">12 850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Точильный камень JJ001-TUO-B</div>
+                            <div class="item__price">12 850 р.</div>
+                        </div>
+                    </div>
+                    <div class="products__item_inst inst-item">
+                        <div class="inst-item__text">
+                            <img src="./img/products/insta.svg" alt="Изображение инстаграмма" class="inst-item__logo">
+                            <div class="inst-item__title">instagram</div>
+                        </div>
+                        <img src="./img/products/knife-inst.png" alt="Изображение статьи" class="inst-item__img">
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/sharpener2.png" alt="Изображение товара" class="item__img "></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Точильный камень JJ001-TUO-B</div>
+                                <div class="item__price">12 850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Точильный камень JJ001-TUO-B</div>
+                            <div class="item__price">12 850 р.</div>
+                        </div>
+                    </div>
+                </div>
+                <div data-tab id="tab-4" class="products__grid _container accessories display-none">
+                    <div class="products__item_big link-item">
+                        <img src="./img/products/knife-big.png" alt="Изображение статьи" class="link-item__img">
+                        <div class="link-item__text">
+                            <div class="link-item__title">Познакомьтесь с коллекцией ножей TUOTOWN</div>
+                            <img src="./img/products/next-arrow.svg" alt="Открыть статью" class="link-item__arrow">
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/accessory1.png" alt="Изображение товара" class="item__img "></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Подставка JJ001-TUO-B</div>
+                                <div class="item__price">850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Подставка SQ01-B</div>
+                            <div class="item__price">850 р.</div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/accessory2.png" alt="Изображение товара" class="item__img "></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Подставка JJ001-TUO-B</div>
+                                <div class="item__price">12 850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Подставка JJ001-TUO-B</div>
+                            <div class="item__price">12 850 р.</div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/accessory1.png" alt="Изображение товара" class="item__img "></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Подставка JJ001-TUO-B</div>
+                                <div class="item__price">850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Подставка SQ01-B</div>
+                            <div class="item__price">850 р.</div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/accessory2.png" alt="Изображение товара" class="item__img "></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Подставка JJ001-TUO-B</div>
+                                <div class="item__price">12 850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Подставка JJ001-TUO-B</div>
+                            <div class="item__price">12 850 р.</div>
+                        </div>
+                    </div>
+                    <div class="products__item_inst inst-item">
+                        <div class="inst-item__text">
+                            <img src="./img/products/insta.svg" alt="Логотип инстаграмма" class="inst-item__logo">
+                            <div class="inst-item__title">instagram</div>
+                        </div>
+                        <img src="./img/products/knife-inst.png" alt="Изображение статьи" class="inst-item__img">
+                    </div>
+                    <div class="products__item">
+                        <div class="item__background">
+                            <div class="item__plus-wrapper"><img src="./img/products/plus.svg" alt="Добавить" class="item__plus"></div>
+                            <div class="item__img-wrapper"><img src="./img/products/accessory2.png" alt="Изображение товара" class="item__img "></div>
+                            <div class="item__text item__text_inner">
+                                <div class="item__title">Подставка JJ001-TUO-B</div>
+                                <div class="item__price">12 850 р.</div>
+                            </div>
+                        </div>
+                        <div class="item__text">
+                            <div class="item__title">Подставка JJ001-TUO-B</div>
+                            <div class="item__price">12 850 р.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="subscribe _container">
+                <div class="subscribe__text">Узнавайте первым о новинках и новостях</div>
+                <div class="subscribe__input-wrapper">
+                    <input type="text" class="subscribe__input" placeholder="Ваш e-mail">
+                    <img src="./img/products/input-arrow.svg" alt="Подписаться" class="subscribe__arrow">
+                </div>
+
+            </section>
+            <section class="spliter"></section>
+            <article class="about-us _container">
+                <div class="about-us__item">
+                    <img src="./img/about-us/new1.png" alt="Изображение" class="about-us__img">
+                    <div class="about-us__text about-us__text_width">
+                        <div class="about-us__title">«Tuotown» – легендарные ножи, создающие шедевры</div>
+                        <div class="about-us__subtitle">Компания «Tuotown» – эксклюзивный представитель профессиональных кухонных ножей, изготовленных лучшими мастерами Восточной Азии с применением передового европейского оборудования и современных материалов. Они отличаются идеальным балансом и фантастической остротой. Сочетают в себе вековые традиции и новейшие разработки. Также предлагаем широкий ассортимент сопутствующих товаров.</div>
+                    </div>
+                </div>
+                <div class="about-us__item">
+                    <div class="about-us__text">
+                        <div class="about-us__subtitle">Истинная красота ножа — совершённая функциональность и визуальная гармония. Этот предмет издревле сопутствовал человеку: от зари цивилизации до сегодняшних дней. На протяжении всей истории человечества он был верным помощником, незаменимым инструментом и грозным оружием. Предлагаем изделия Hi-end качества по доступным ценам настоящим ценителям японских ножей.</div>
+                        <div class="about-us__subtitle">Отличительной чертой нашего интернет-магазина являются уникальные торговые предложения, эксклюзивность продукции, неизменно высокое качество и выгодные цены. Осуществляем продажи элитных японских кухонных ножей для профессионалов и любителей. В обширной ассортиментной линейке представлены изделия для различных потребностей и любого бюджета — от столовых приборов до шеф-ножей.</div>
+                        <div class="about-us__title">Ножи «Tuotown» – это главный инструмент поваров и секрет кулинарного мастерства</div>
+                    </div>
+                    <img src="./img/about-us/new2.png" alt="Изображение" class="about-us__img">
+                </div>
+            </article>
+            <section class="spliter"></section>
+            <section class="news _container">
+                <div class="news__title">Всё самое интересное о ножах</div>
+                <div class="news__items">
+                    <div class="news__item">
+                        <img src="./img/news/state1.png" alt="Изображение статьи" class="news__img">
+                        <div class="news__date">4 августа 2021 19:24</div>
+                        <div class="news__text">Традиционные виды японских кухонных ножей</div>
+                    </div>
+                    <div class="news__item">
+                        <img src="./img/news/state2.png" alt="Изображение статьи" class="news__img">
+                        <div class="news__date">4 августа 2021 19:24</div>
+                        <div class="news__text">Всемирная история режущих клинков — взгляд в прошлое</div>
+                    </div>                    
+                    <div class="news__item">
+                        <img src="./img/news/state3.png" alt="Изображение статьи" class="news__img">
+                        <div class="news__date">4 августа 2021 19:24</div>
+                        <div class="news__text">Как ухаживать за японскими кухонными ножами?</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer__background">
+            <div class="footer__wrapper _container">
+                <div class="footer">
+                    <div class="footer__company company">
+                        <div class="company__logo">
+                            <img src="./img/header/logo.svg" alt="Логотип" class="company_img">
+                            <div class="company__title">легендарные ножи, создающие шедевры</div>
+                        </div>
+                        <div class="company__subtitle">
+                            <div class="company__text">Компания «Tuotown» – эксклюзивный представитель профессиональных кухонных ножей, изготовленных лучшими мастерами Восточной Азии с применением передового европейского оборудования и современных материалов. </div>
+                            <div class="company__text">Они отличаются идеальным балансом и фантастической остротой. Сочетают в себе вековые традиции и новейшие разработки. Также предлагаем широкий ассортимент сопутствующих товаров.</div>
+                        </div>
+                    </div>
+                    <div class="footer__nav f-nav">
+                        <div class="f-nav__info info">
+                            <div class="f-nav__title">Информация</div>
+                            <nav class="f-nav__nav">
+                                <ul class="f-nav__list">
+                                    <li><a href="">Главная</a></li>
+                                    <li><a href="">Новости</a></li>
+                                    <li><a href="">О компании</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="f-nav__catalog catalog">
+                            <div class="f-nav__title">Каталог</div>
+                            <nav class="f-nav__nav">
+                                <ul class="f-nav__list">
+                                    <li><a href="">Кухонные ножи</a></li>
+                                    <li><a href="">Складные ножи</a></li>
+                                    <li><a href="">Точилки для ножей</a></li>
+                                    <li><a href="">Аксессуары</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="f-nav__soci soci">
+                            <div class="f-nav__title soci__title">Мы в соцсетях</div>
+                            <img src="./img/footer/facebook.svg" alt="Логотип фейсбук" class="f-nav__img">
+                            <img src="./img/footer/vk.svg" alt="Логотип ВК" class="f-nav__img">
+                            <img src="./img/footer/instagramm.svg" alt="Логотип инстаграмм" class="f-nav__img">
+                            <img src="./img/footer/youtube.svg" alt="Логотип ютуб" class="f-nav__img">
+                        </div>
+                    </div>
+                    <div class="footer__contact">
+                        <div class="contact__title">Контактная информация</div>
+                        <div class="contact__number">+7 (981) 120-11-17</div>
+                        <div class="contact__text">tuotown@mail.ru</div>
+                        <div class="contact__text">08:00 — 18:00, ежедневно</div>
+                        <div class="contact__text">Россия, Москва, МКАД, 19-й километр, вл20с1, вход Ф, 22-68-70</div>
+                        <img src="./img/footer/image 9.png" alt="Счетчик посещения" class="contact__img">
+                    </div>
+                </div>     
+            </div>
+        </footer>
+    </div>
+
+    <script defer src="./chiefSlider/chief-slider.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
